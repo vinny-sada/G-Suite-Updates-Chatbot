@@ -7,7 +7,7 @@ var WEBHOOK_URL = "<YOUR WEBHOOK URL>";
 // When DEBUG is set to true, the topic is not actually posted to the room
 var DEBUG = false;
 
-// This function 
+// This function is wired up to a trigger to monitor for new blog posts
 function fetchNews() {
   
   //An Apps Script project property called lastUpdate is used to avoid an . 
